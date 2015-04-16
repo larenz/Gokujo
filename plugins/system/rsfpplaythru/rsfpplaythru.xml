@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade">
+	<name>System - PlayThru Captcha for RSForm! Pro</name>
+	<author>Davide Tampellini</author>
+	<creationDate>2012-11-05</creationDate>
+	<copyright>(C) 2009-2012 www.fabbricabinaria.it</copyright>
+	<license>GNU General Public License</license>
+	<authorEmail>info@fabbricabinaria.it</authorEmail>
+	<authorUrl>www.fabbricabinaria.it</authorUrl>
+	<version>1.0.1</version>
+	<description><![CDATA[PlayThru Captcha for RSForm!Pro - PlayThru plugin allows you to add PlayThru minigames to validate your forms. Works with at least RSForm! Pro 1.4.0 REV45!]]></description>
+	
+	<files>
+		<filename plugin="rsfpplaythru">rsfpplaythru.php</filename>
+        <filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_rsfpplaythru.ini</language>
+	</languages>
+</install>

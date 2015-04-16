@@ -1,0 +1,15 @@
+/**
+* @version   $Id: error.css 5443 2012-11-27 20:16:51Z james $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+.rt-error-box {margin: 0 auto;padding: 20px;}
+.rt-error-box > div {padding: 20px;border-radius: 5px;}
+/*.rt-menubar, .menu-block {display: none;}*/
+#rt-logo {margin: 0 auto;}
+.rt-error-box .error-title { font-size: 29px;line-height: 2;font-family: "Trebuchet MS",sans-serif;}
+.rt-error-box .error-message {color: #C50000;}
+.rt-error-box .rt-error-container {float: left;}
+.rt-error-box .rt-error-image {height: auto;max-width: 100%;float: right;}

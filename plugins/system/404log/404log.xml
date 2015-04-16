@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system">
+	<name>plg_404log</name>
+	<author>Ionut Lupu</author>
+	<creationDate>May 2014</creationDate>
+	<authorEmail>ionut@medialup.com</authorEmail>
+	<authorUrl>www.medialup.com</authorUrl>
+	<copyright>2014 Ionut Lupu. All Rights Reserved</copyright>
+	<license>GNU/GPL</license>
+	<version>1.2 Python</version>
+	<description><![CDATA[ 404log will log all the 404 events and send proper notifications. ]]></description>
+	<files>
+		<filename plugin="404log">404log.php</filename>
+		<filename>index.html</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_404log.ini</language>
+		<language tag="en-GB">en-GB.plg_system_404log.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+					<field	name="sendEmail" type="radio" default="0" description="PLG_SYSTEM_404LOG_SEND_EMAIL" label="PLG_SYSTEM_404LOG_SEND_EMAIL">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+					</field>
+
+					<field name="emailTo" type="text" default="" description="PLG_SYSTEM_404LOG_EMAIL_ADDRESS" label="PLG_SYSTEM_404LOG_EMAIL_ADDRESS" />
+					<field name="emailSubject" type="text" default="" description="PLG_SYSTEM_404LOG_EMAIL_SUBJECT" label="PLG_SYSTEM_404LOG_EMAIL_SUBJECT" />
+					<field name="logfile" type="text" default="" description="PLG_SYSTEM_404LOG_LOG_FILE_HELP" label="PLG_SYSTEM_404LOG_LOG_FILE" />
+					<field name="redirect" type="text" default="" description="PLG_SYSTEM_404LOG_REDIRECT_URL_HELP" label="PLG_SYSTEM_404LOG_REDIRECT_URL" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
