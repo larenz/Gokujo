@@ -28,7 +28,7 @@ if (!file_exists(JPATH_CONFIGURATION . '/configuration.php')
 		exit;
 	}
 }
-
+kjnmknjk
 // System includes
 require_once JPATH_LIBRARIES . '/import.legacy.php';
 
